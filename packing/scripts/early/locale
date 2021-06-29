@@ -11,7 +11,7 @@ if test -z "$locale" -o -z "$charset"
 	 fi
 	
 export DEBIAN_FRONTEND=noninteractive
-
+apt-get install -y locales
 
 echo "LANG=$locale.$charset" > /etc/default/locale
 echo "$locale.$charset $charset" > /etc/locale.gen
