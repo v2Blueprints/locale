@@ -3,12 +3,8 @@
 		"title": "set local",
 		"explanation": "bp to set or overide locale"
 	},
-	"configuration": {
+	"input": {
 		"locale": "en_AU",
 		"charset": "UTF-8"
-	},
-	"binding_target": {
-		"locale": "^^configuration.locale^^",
-		"charset": "^^configuration.charset^^"
 	}
 }
