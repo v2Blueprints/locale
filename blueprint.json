@@ -3,8 +3,8 @@
 		"title": "set local",
 		"explanation": "bp to set or overide locale"
 	},
-	"input": {
-		"locale": "en_AU",
+	"binding_target": {
+		"locale": "en_US",
 		"charset": "UTF-8"
 	}
 }
