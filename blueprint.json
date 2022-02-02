@@ -4,7 +4,9 @@
 		"explanation": "bp to set or overide locale"
 	},
 	"binding_target": {
-		"locale": "en_US",
-		"charset": "UTF-8"
+		"configuration" : {
+			"locale": "en_US",
+			"charset": "UTF-8"
+		}
 	}
 }
